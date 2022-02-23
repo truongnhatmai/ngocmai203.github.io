@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/hoho.css">
+</head>
+<body>
+    <form>
+        <div class="form-group">
+        <label>Họ và tên:</label><br />
+        <input class="form-control" name="Họ và tên" type="text" />
+        </div>
+        <br />
+        <div class="form-group">
+            <fieldset>
+            <legend> Giới tính:</legend><br />
+            <input name="Giới tính" type="radio" Checked />Nam
+            <input name="Giới tính" type="radio" />Nữ
+        </fieldset>
+            </div>
+            <br />
+        <div class="form-group">
+            <label>Ngày sinh:</label><br />
+            <input class="form-control" name="Ngày sinh" type="date" />
+        </div>  
+        <br />
+        <div class="form-group">
+            <label>Nghề nghiệp:</label><br />
+            <input class="form-control" name="Nghề nghiệp" type="list" list="Học sinh"/>
+           <datalist id="Học sinh">
+           <option value="Giáo viên">
+            <option value="Công nhân">
+                <option value="Thợ hồ">
+                    <option value="Kỉ sư">
+                        <option value="Phụ vụ"> 
+             </datalist>                                 
+        </div>
+           <hr>
+        <div class="form-group">
+            <button class="form-button" tabindex="3">Đăng ký</button>
+            <button class="form-button" tabindex="4">Nhập lại</button>
+        </div>  
+        </form>  
+</body>
+</html>
